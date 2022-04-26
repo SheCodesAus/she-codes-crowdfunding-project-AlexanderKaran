@@ -3,9 +3,6 @@ import React, { useState, useEffect } from "react";
 // Components
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 
-// Data
-import { allProjects } from "../data";
-
 function HomePage() {
   // States
   const [projectList, setProjectList] = useState([]);
